@@ -1,0 +1,133 @@
+body{
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 1600px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.header{
+    display: flex;
+    width: 100%;
+     height: 150px;
+    background-color: rgba(12, 11, 11, 0.712);
+
+}
+
+.headerblock h1{
+   color: white;
+   margin: 30px;
+   font-size: 45px;
+}
+nav{
+   display: flex;
+   width: 700px;
+   height: 100%;
+
+}
+nav ul{
+    display: flex;
+    text-align: center;
+    width: 600px;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 20px;
+    color: transparent;
+    margin-top: 60px;
+
+}
+
+/* .header p{
+    display: flex;
+   color: white;
+   font-size: 20px;
+   text-align: center;
+   align-items: center;
+   margin-left: 100px;
+} */
+div.knopka{
+    display: flex;
+    width: 150px;
+    height: 100%;
+    
+}
+button{
+    display: flex;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+
+
+
+ .container_img{
+    background: url('../otzyvy/img-otzyvy/Matras.jpg')no-repeat 0 0/100% 100% ;
+    width: 100%;
+    height: 400px;
+}
+.main{
+    display: block;
+    width: 90%;
+    margin: 50px;
+}
+
+h1{
+    width: 100%;
+    display: block;
+
+}
+.main{
+    width: 75%;
+}
+.main_content{
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+section{
+    border: 1px solid rgb(177, 118, 8);
+    width: 47%;
+    height: 300px;
+}
+article{
+    height: 100%;
+}
+
+aside{
+    width: 47%;
+    margin-left: 100px;
+    border: 1px solid rgb(177, 118, 8);
+}
+.post-itm{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    padding-left: 10px;
+    
+}
+@media screen and  (max-width:980px){
+    .post-itm{
+        width: 30%;
+    }
+}
+@media screen and  (max-width:800px){
+    .post-itm{
+        width:   48%;
+    }
+}
+@media screen and  (max-width:600px){
+    .post-itm{
+        width: 90%s;
+    }
+}
